@@ -1,0 +1,196 @@
+body {
+	background-color: #fafafa;
+}
+
+.main-flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+
+}
+
+.section-1 img {
+	height: auto;
+	width: 400px;
+}
+
+
+.section-2 {
+	display: flex;
+	flex-direction: column;
+	height: auto;
+
+}
+
+.signin-section {
+	background-color: #ffffff;
+	padding-bottom: 20px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ebebeb;
+	
+}
+
+#instagram-heading img {
+	height:100px;
+	width: 250px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+
+
+#signin-list {
+	list-style-type: none;
+}
+
+#signin-list li {
+	margin: 10px;
+}
+
+#user-data {
+	height: 30px;
+	width: 250px;
+	border-radius: 3px;
+}
+
+input#user-data {
+	background-color: #fafafa;
+	padding-left: 10px;
+}
+
+#login-button {
+	margin-top: 10px;
+	height: 30px;
+	width: 250px;
+	border-radius: 5px;
+	background-color: #b2dffc;
+}
+
+.separator {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 50px;
+	padding-right: 50px;
+	justify-content: space-between;
+}
+
+#separator-line {
+	background-color: black;
+	height: 1px;
+	width: 105px;
+}
+
+.facebook-login {
+	padding-left: 50px;
+	padding-right: 50px;
+	display: flex;
+	justify-content: space-between;
+	justify-content: center;
+	align-items: center;
+}
+
+.facebook-login a {
+	text-decoration: none;
+	font-size: 16px;
+	text-decoration: bold;
+}
+
+.facebook-login img {
+	height: 20px;
+	width: 20px;
+	padding-right: 10px;
+	justify-content: center;
+}
+
+.forget-password {
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 20px;
+	text-align: center;
+}
+
+.forget-password a {
+		text-decoration: none;
+}
+
+#signup-link {
+	margin-top: 12px;
+	background-color: white;
+	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ebebeb;
+}
+
+#signup-link a {
+	text-decoration: none;
+	text-decoration-color: #0095f6;
+}
+
+.download {
+	display: flex;
+	flex-direction: column;
+	margin-top: 25px;
+	justify-content: center;
+	text-align: center;
+	color: #b2b2b2;
+
+}
+
+#download-button {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	padding-top: 10px;
+}
+
+
+
+#apple {
+	height: 50px;
+	width: 150px;
+	background-size: cover;
+}
+
+#google {
+	height: 60px;
+	widows: 500px;
+	background-size: cover;
+}
+
+
+
+.footer-flex {
+	display: flex;
+	justify-content: space-around;
+	font-size: 12px;
+	margin: 40px 0;
+	
+
+}
+
+#about-flex  {
+	display: flex;
+	justify-content: space-between;
+	font-size: 14px;
+	color: #829db6;
+}
+
+#about-flex div {
+	margin-right: 10px;
+}
+
+#copy-right div {
+	padding-right: 20px;
+	color: #bababa;
+}
+
+
+@media only screen and (max-width: 800px) {
+	.section-1 {
+		display: none;
+	}
+}
